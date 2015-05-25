@@ -19,9 +19,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 import org.json.JSONArray;
 
-/**
- * Root resource (exposed at "myresource" path)
- */
 @Path("locations")
 public class MyResource {
 	
