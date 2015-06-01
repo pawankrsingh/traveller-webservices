@@ -22,7 +22,6 @@ import org.json.JSONArray;
 @Path("locations")
 public class MyResource {
 	
-	
 	@GET
     @Produces(MediaType.APPLICATION_JSON)
     public List<City> getIt() {
